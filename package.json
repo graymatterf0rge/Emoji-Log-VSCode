@@ -20,10 +20,11 @@
 		"color": "#fad000"
 	},
 	"keywords": [
-		"Emoji Log",
-		"Emoji Log VSCode",
+		"Gitmoji Log",
+		"Gitmoji Log VSCode",
 		"git",
 		"emoji",
+		"gitmoji",
 		"commit",
 		"messages"
 	],
@@ -32,14 +33,14 @@
 	],
 	"icon": "images/icon.png",
 	"activationEvents": [
-		"onCommand:extension.EmojiLog"
+		"onCommand:extension.GitmojiLog"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.EmojiLog",
-				"title": "Emoji Log: Create Emoji Log git commit message [📦👌🐛📖🚀🤖 ‼️]",
+				"command": "extension.GitmojiLog",
+				"title": "Gitmoji Log: Create git commit messages using Gitmoji-style icons [✨⚡🐛📝🚀✅💥]",
 				"icon": {
 					"dark": "images/icon_dark.svg",
 					"light": "images/icon_light.svg"
@@ -50,18 +51,14 @@
 			"scm/title": [
 				{
 					"when": "scmProvider == git",
-					"command": "extension.EmojiLog",
+					"command": "extension.GitmojiLog",
 					"group": "navigation"
 				}
 			]
 		}
 	},
 	"badges": [
-		{
-			"url": "https://img.shields.io/badge/SUPPORT%20THIS%20PROJECT-Become%20a%20VSCode%20Power%20User%20%E2%86%92-gray.svg?colorA=131217&colorB=5734F5&style=flat",
-			"href": "https://VSCode.pro/?utm_source=EmojiLogVSCode",
-			"description": "Support this project!"
-		}
+		
 	],
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
