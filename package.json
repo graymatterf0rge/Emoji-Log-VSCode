@@ -1,17 +1,17 @@
 {
-	"name": "emoji-log-vscode",
-	"displayName": "Emoji Log",
-	"description": "Emoji-Log — An Emoji Git commit log messages spec standard. [ 📦👌🐛📖🚀🤖 ‼️ ].",
+	"name": "gitmoji-log-vscode",
+	"displayName": "Gitmoji Log",
+	"description": "Gitmoji-Log - A commit labeling extension using the emojis.",
 	"version": "1.0.0",
 	"author": {
-		"name": "Ahmad Awais",
-		"email": "me@AhmadAwais.com"
+		"name": "Jessie Taylor",
+		"email": "b3457@graymatterf0rge.com"
 	},
-	"publisher": "ahmadawais",
+	"publisher": "graymatterf0rge",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ahmadawais/Emoji-Log-VSCode"
+		"url": "https://github.com/graymatterf0rge/Gitmoji-Log-VSCode"
 	},
 	"engines": {
 		"vscode": "^1.40.0"
